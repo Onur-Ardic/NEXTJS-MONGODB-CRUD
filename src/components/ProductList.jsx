@@ -50,7 +50,7 @@ export default async function ProductssList() {
             </tr>
           </thead>
           <tbody>
-            {products.map((rs) => (
+            {products?.map((rs) => (
               <tr className="hover" key={rs._id}>
                 <th>
                   <label>
